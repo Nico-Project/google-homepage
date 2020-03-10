@@ -1,0 +1,54 @@
+
+#google-logo {
+    display: block;
+    margin: auto;
+    padding-top: 109px ;
+}
+
+#main-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    width: 40vw;
+    border-radius: 14px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: 1.2vw;
+}
+header {
+    padding-right: 2vw;
+    padding-left: 2vw
+}
+.header-links {
+    font-size: 12;
+    color:#675757;
+    text-decoration: none;
+}
+#accedi {
+    float: none;
+    margin-left: 2vw;
+    background-color: #4584ef;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+#gmail {
+    float: right;
+}
+#immagini {
+    float: right;
+    margin-right: 2vw;
+}
+#google-store {
+    margin-left: 2vw;
+}
