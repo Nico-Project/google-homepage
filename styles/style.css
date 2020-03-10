@@ -38,6 +38,15 @@
     opacity: 0.6;
     margin-top: 3px;
 }
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+.centerbuttons {
+    display: flex;
+    
+}
 
 header {
     padding-right: 2vw;
