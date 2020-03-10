@@ -11,8 +11,8 @@
     margin-right: auto;
 }
 
-#search-bar {
-    display: block;
+#search-bar-container {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;
@@ -25,6 +25,18 @@
     border: 1px;
     border-style: solid;
     border-color: #dfe1e5;
+}
+#search-bar {
+    display: flex;
+    align-content: flex-end;
+    border: none;
+    padding-left: 20px;
+    font-size: 1.2vw;
+}
+#lens {
+    display: flex;
+    opacity: 0.6;
+    margin-top: 3px;
 }
 
 header {
