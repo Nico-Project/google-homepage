@@ -28,7 +28,7 @@ header {
     padding-left: 2vw
 }
 .header-links {
-    font-size: 12;
+    font-size: 12pt;
     color:#675757;
     text-decoration: none;
 }
@@ -43,6 +43,7 @@ header {
     border-radius: 3px;
     color:white;
     font-weight: bold;
+    font-size: 10pt;
     border: none;}
    
 #accedi:hover {
@@ -77,8 +78,19 @@ header {
 }
 #footer {
    background-color: lightgrey;
-   display: flex;
-   height: 6vw;
+   height: 40px;
    justify-content: center;
    margin-top: 10vw;
+}
+#lingua {
+    float: left;
+}
+#footer2 {
+        background-color: lightgrey;
+        height: 60px;
+        justify-content: center;
+        margin-top: 0;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-color: black;
 }
