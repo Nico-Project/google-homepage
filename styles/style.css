@@ -17,12 +17,16 @@
     margin-right: auto;
     margin-top: 12px;
     width: 40vw;
-    border-radius: 14px;
-    padding-bottom: 6px;
-    padding-top: 6px;
-    padding-left: 10px;
+    border-radius: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
     font-size: 1.2vw;
+    border: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
 }
+
 header {
     padding-right: 2vw;
     padding-left: 2vw
@@ -31,6 +35,11 @@ header {
     font-size: 12pt;
     color:#675757;
     text-decoration: none;
+}
+.header-links:hover {
+    text-decoration: underline;
+    text-decoration-color: #675757;
+
 }
 #accedi {
     float: none;
@@ -76,21 +85,26 @@ header {
     text-decoration: underline;
     text-decoration-color: #675757;
 }
-#footer {
-   background-color: lightgrey;
-   height: 40px;
-   justify-content: center;
-   margin-top: 10vw;
-}
+
 #lingua {
     float: left;
 }
 #footer2 {
-        background-color: lightgrey;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background-color: #f2f2f2;
         height: 60px;
-        justify-content: center;
-        margin-top: 0;
+        margin-top: 20vw;
+        margin-bottom: 0;
         border-top-width: 1px;
         border-top-style: solid;
-        border-color: black;
+        border-color: #e4e4e4;
+       
+}
+#soluzioni {
+    margin-left: 2vw;
+}
+#pubblicita {
+    margin-left: 2vw;
 }
