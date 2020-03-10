@@ -40,15 +40,45 @@ header {
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
+    color:white;
+    font-weight: bold;
+    border: none;}
+   
+#accedi:hover {
+    background-color: #578ff1;
+
 }
 #gmail {
     float: right;
+}
+#gmail:hover {
+    text-decoration: underline;
+    text-decoration-color: #675757;
 }
 #immagini {
     float: right;
     margin-right: 2vw;
 }
+#immagini:hover {
+    text-decoration: underline;
+    text-decoration-color: #675757;
+}
 #google-store {
     margin-left: 2vw;
+}
+#google-store:hover {
+    text-decoration: underline;
+    text-decoration-color: #675757;
+}
+#chi-siamo:hover {
+    text-decoration: underline;
+    text-decoration-color: #675757;
+}
+#footer {
+   background-color: lightgrey;
+   display: flex;
+   height: 6vw;
+   justify-content: center;
+   margin-top: 10vw;
 }
